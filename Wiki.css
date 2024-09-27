@@ -1,0 +1,234 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #f2f2f2;
+  padding: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+header #p-logo {
+  float: left;
+  margin: 10px;
+}
+
+header #p-logo a {
+  display: block;
+  width: 135px;
+  height: 135px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/440px-Wikipedia-logo-v2.svg.png');
+  background-size: 135px 135px;
+  background-repeat: no-repeat;
+}
+
+header #p-search {
+  float: right;
+  margin: 10px;
+}
+
+header #p-search input[type="search"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+header #p-search button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header #p-search button:hover {
+  background-color: #3e8e41;
+}
+
+/* Navigation Styles */
+
+#p-navigation {
+  background-color: #f2f2f2;
+  padding: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+#p-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#p-navigation li {
+  margin-right: 20px;
+  position: relative;
+}
+
+#p-navigation a {
+  color: #333;
+}
+
+#p-navigation a:hover {
+  color: #0645ad;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* Dropdown Menu Styles */
+
+#p-navigation ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 1em;
+  z-index: 1;
+}
+
+#p-navigation ul ul li {
+  margin-right: 0;
+}
+
+#p-navigation ul ul a {
+  padding: 5px 10px;
+}
+
+#p-navigation ul ul a:hover {
+  color: #0645ad;
+}
+
+#p-navigation ul li:hover > ul {
+  display: block;
+}
+W
+/* Main Content Styles */
+
+main {
+  padding: 20px;
+}
+
+main h1 {
+  margin-top: 0;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.article-content p {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.article-text {
+  width: 70%;
+}
+
+.image-container img {
+  margin-right: 10px;
+}
+
+/* Sidebar Styles */
+
+aside {
+  background-color: #f2f2f2;
+  padding: 1em;
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+aside h2 {
+  margin-top: 0;
+}
+
+aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+aside a {
+  color: #333;
+}
+
+aside a:hover {
+  color: #0645ad;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 1em;
+  border-top: 1px solid #ccc;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #333;
+}
+
+footer a:hover {
+  color: #0645ad;
+}
